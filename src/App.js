@@ -34,6 +34,7 @@ function App() {
     <div className="App">
       <form onSubmit={handleSubmit}>
         <input
+          required
           type="text"
           value={url}
           placeholder="Type in Url"
